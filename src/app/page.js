@@ -1,10 +1,11 @@
 import Team from '@/components/team/Team'
-import React from 'react'
+import Navbar from '@/components/navbar/Navbar'
 
 const page = () => {
   return (
     <div>
-      <Team/>
+      <Navbar />
+      <Team />
     </div>
   )
 }
