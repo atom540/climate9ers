@@ -1,16 +1,23 @@
 import React from 'react'
 import Image from 'next/image';
-const TeamCell = ({img, pos, dec}) => {
+import "./teamCell.css"
+const TeamCell = ({img, details}) => {
   return (
     <div className="team-cell">
         <div className="image">
-        <Image src={logo} alt="Example Image" width={150}  />
+        <Image src={img} alt="Example Image" width={150}  />
+        </div>
+        <div className="teamName">
+           <p>{details.name}</p> 
+        </div>
+        <div className="teamClg">
+           <p>{details.clg}</p> 
         </div>
         <div className="teamPos">
-            {pos}
+           <p>{details.posistion}</p> 
         </div>
         <div className="teamDesc">
-            {dec}
+            <p>{details.dec}</p>
         </div>
 
       
