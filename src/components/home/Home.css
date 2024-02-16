@@ -1,0 +1,26 @@
+.mainContainer{
+    padding-top: 2rem;
+}
+.topContainer{
+    display: flex;
+    gap:7rem
+}
+.topLeftcontainer{
+   width: 30vw;
+}
+.topRightContainer{
+
+}
+
+.topContainerbtn {
+    color: white;
+    background: black;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 200px;
+    cursor: pointer;
+}
