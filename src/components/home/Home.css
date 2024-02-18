@@ -8,6 +8,7 @@
 .topLeftcontainer {
   margin-left: 80px;
   width: 30vw;
+  margin-left: 80px;
 }
 .topRightContainer {
 
@@ -17,7 +18,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 100px;
-  width: 1555px;
+  width: 100vw;
   height: 300px;
 }
 .ImgContainer {
