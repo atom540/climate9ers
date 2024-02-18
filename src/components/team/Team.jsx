@@ -44,6 +44,10 @@ const Team = () => {
     ]
   return (
     <div className="teamContainer">
+      <div className="heading">
+        <h2>Team</h2>
+        <p className='lowerText'>Investment Committee</p>
+      </div>
         <div className="topContainer">
         <TeamCell img={img1}   details={team[0]}/>
         <TeamCell img={img2}   details={team[1]}/>

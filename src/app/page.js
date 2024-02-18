@@ -6,8 +6,8 @@ const page = () => {
   return (
     <div>
       <Navbar />
-      {/* <Team /> */}
       <Home/>
+      <Team />
     </div>
   )
 }
