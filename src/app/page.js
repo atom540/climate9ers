@@ -8,7 +8,7 @@ const page = () => {
     <div>
       <Navbar />
       <Home/>
-      {/* <Team /> */}
+      <Team />
       <Footer/>
     </div>
   )

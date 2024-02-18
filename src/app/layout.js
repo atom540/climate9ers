@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-
+import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -9,6 +9,11 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  <head>
+      <Link rel="preconnect" href="https://fonts.googleapis.com" />
+<Link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<Link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;500&display=swap" rel="stylesheet" />
+  </head>
   return (
     <html lang="en">
       <body className={inter.className}>

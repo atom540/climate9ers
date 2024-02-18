@@ -10,6 +10,18 @@
   width: 30vw;
   margin-left: 80px;
 }
+.textTop{
+  font-family: 'jost';
+  font-weight: 500;
+  font-size: 1rem;
+
+}
+.textTopHeading{
+  /* font-family: 'jost'; */
+  font-weight: bold;
+  font-size: 2rem;
+  
+}
 .topRightContainer {
 
 }

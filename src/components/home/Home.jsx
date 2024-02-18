@@ -18,7 +18,7 @@ const Home = () => {
         <div className="topContainer">
           <div className="topLeftcontainer">
             <p className="textTop">WE ARE</p>
-            <h1>
+            <h1 className="textTopHeading">
               Early-stage deep tech fund accelerating technologies and
               businesses to combat climate change.
             </h1>
