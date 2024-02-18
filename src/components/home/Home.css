@@ -7,6 +7,7 @@
 }
 .topLeftcontainer {
   width: 30vw;
+  margin-left: 80px;
 }
 .topRightContainer {
 }
@@ -15,7 +16,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 100px;
-  width: 1555px;
+  width: 100vw;
   height: 300px;
 }
 .ImgContainer {
@@ -39,12 +40,13 @@
 .img1 {
   width: 200px;
   margin-bottom: 20px;
-  margin-left: 90px;
+  margin-left: 80px;
    text-shadow: 2px 4px 4px rgba(137, 143, 156, 0.6);
 }
 .img2 {
   margin-bottom: 20px;
   width: 450px;
+  margin-right: 18px;
    text-shadow: 2px 4px 4px rgba(137, 143, 156, 0.6);
 }
 .envimg {
@@ -53,4 +55,7 @@
   align-items: center;
   height: 200px;
   margin-left: 35px;
+}
+.topLeftImage{
+     margin-left: 80px;
 }

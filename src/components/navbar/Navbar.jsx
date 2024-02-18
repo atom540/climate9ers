@@ -7,8 +7,8 @@ const Navbar = () => {
       <Image
         src="/images/logo.png"
         alt=""
-        width={110}
-        height={30}
+        width={106}
+        height={27}
         className={styles.img}
       />
       <div className={styles.link}>
