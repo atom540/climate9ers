@@ -47,7 +47,7 @@ const Home = () => {
           </div>
         </div>
         <div className="envimg">
-          <Image src={envImg} alt="envImg" />
+          <Image src={envImg} alt="envImg" width={800} height={450}/>
         </div>
         {/* top ended */}
 
@@ -73,7 +73,8 @@ const Home = () => {
                 className="topLeftImage"
                 src={img7}
                 alt="Example Image"
-                width={300}
+                width={370}
+                height={550}
               />
             </div>
           </div>
@@ -85,7 +86,7 @@ const Home = () => {
               className="bottomContainerImg"
               src={img8}
               alt="Example Image"
-              width={700}
+              width={900}
             />
           </div>
         </div>
