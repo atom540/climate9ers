@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-import "./teamCell.css"
+import "./TeamCell.css"
 const TeamCell = ({img, details}) => {
   return (
     <div className="team-cell">
