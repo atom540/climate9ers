@@ -1,8 +1,38 @@
 .team-cell{
-    width: 10vw;
-    height: 50vh;
+    width: 20vw;
+    height: 25rem   ;
+    font-family: "jost";
 }
 
+.teamName{
+    text-align: center;
+    font-size:1rem;
+    font-weight:bold;
+    padding-bottom: 1rem;
+    padding-top:1rem ;
+}
+.teamPos{
+    text-align: center;
+    font-size:1rem;
+    font-weight:bold;
+    padding-bottom: 1rem;
+}
+.teamClg{
+    text-align: center;
+    font-size:1rem;
+    font-weight:bold;
+    padding-bottom: 1rem;
+}
+.image{
+    display: flex;
+  justify-content: center;
+
+}
 .teamDesc{
-    font-size:300,
+    line-height: 1.2rem;
+    font-size: 0.9rem;
+    /* font-weight: normal; */
+    padding-left: 3rem;
+    width: 13rem;
+  
 }

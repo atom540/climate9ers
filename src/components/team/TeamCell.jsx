@@ -5,7 +5,7 @@ const TeamCell = ({img, details}) => {
   return (
     <div className="team-cell">
         <div className="image">
-        <Image src={img} alt="Example Image" width={150}  />
+        <Image src={img} alt="Example Image" width={200}  />
         </div>
         <div className="teamName">
            <p>{details.name}</p> 

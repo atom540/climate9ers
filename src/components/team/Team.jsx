@@ -32,12 +32,12 @@ const Team = () => {
      
         
         {"id": 4,
-        "name": "Akshay Singhal (phD)",
+        "name": "Aditya Gupta",
     },
      
         
         {"id": 5,
-        "name": "Akshay Singhal (phD)",
+        "name": "Surojit Bose",
 },
         
      
@@ -53,7 +53,9 @@ const Team = () => {
         <TeamCell img={img2}   details={team[1]}/>
         <TeamCell img={img3}   details={team[2]}/>
         </div>
-
+        <div className="heading">
+        <h1 className='lowerText'>Partners & Investment Manager</h1>
+      </div>
         <div className="downContainer">
         <TeamCell img={img4}   details={team[3]}/>
         <TeamCell img={img5}   details={team[4]}/>
