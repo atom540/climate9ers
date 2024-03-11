@@ -49,7 +49,7 @@ const Team = () => {
         <p className='lowerText'>Investment Committee</p>
       </div>
         <div className="topContainer">
-        <TeamCell img={img1}   details={team[0]}/>
+        <TeamCell className="pd-2" img={img1}   details={team[0]}/>
         <TeamCell img={img2}   details={team[1]}/>
         <TeamCell img={img3}   details={team[2]}/>
         </div>

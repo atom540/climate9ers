@@ -1,4 +1,5 @@
 .mainContainer {
+  width: 100vw;
   padding-top: 2rem;
 }
 .topContainer {
@@ -6,7 +7,7 @@
   gap: 7rem;
 }
 .topLeftcontainer {
-  margin-left: 80px;
+  margin-left: 9rem;
   width: 30vw;
 }
 .textTop{
@@ -17,7 +18,6 @@
 
 }
 .textTopHeading{
-  /* font-family: 'jost'; */
   font-weight: bold;
   font-size: 2rem;
   line-height: 3rem;
@@ -28,15 +28,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 10rem;
   width: 100vw;
-  height: 300px;
+  height: 20vh;
 }
 .ImgContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1200px;
+  width: 100vw;
 }
 .topContainerbtn {
   color: white;
@@ -52,47 +52,42 @@
   margin-top: 2rem;
 }
 
-.topLeftImage{
-  margin-left:80px
-}
-.img1 {
-  width: 200px;
-  margin-bottom: 20px;
-  margin-left: 80px;
+
+.img1_img {
+ 
+  width: 50vw;
    text-shadow: 2px 4px 4px rgba(137, 143, 156, 0.6);
 }
-.img2 {
-  margin-bottom: 20px;
-  width: 450px;
-  margin-right: 18px;
-   text-shadow: 2px 4px 4px rgba(137, 143, 156, 0.6);
-}
+
+
 .envimg {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
+  height: 20vw;
   margin-left: 35px;
-  margin-top: 100px;
+  margin-top: 5rem;
 }
 .middleContainer{
-  margin-top: 130px;
+  margin-top: 10rem;
   padding-top: 8rem;
   display: flex;
-  gap: 10rem;
   justify-content: space-between;
 }
 
 .middleLeftcontainer{
+  flex: 1;
   width: 50vw;
   padding-left: 10rem;
   margin-top: 45px;
 }
 
+.middleRightContainer{
+  flex: 1;
+}
 .bottomContainerImg{
   display: flex;
   justify-content: center;
-  /* flex-direction: column; */
 }
 
 .bottomContainerHeading{
@@ -100,4 +95,175 @@
 }
 .topLeftImage{
   margin-left: 80px;
+  width:50rem;
+  height: 45rem;
+}
+.middle_text_top{
+  font-size: 2rem;
+}
+.MiddleRightImage{
+  width:30rem;
+  height: 40rem;
+}
+
+.image_bottom{
+  display: flex;
+  justify-content: end;
+}
+
+.bottomContainer_Img{
+  width: 60vw;
+  height: 60vh;
+}
+.bottomContainer{
+  width:100vw;
+}
+
+
+
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 740px) and (orientation: portrait) {
+  .mainContainer {
+    width: 100vw;
+    padding-top: 1rem;
+  }
+  .topContainer {
+    display: flex;
+    gap: 0rem;
+  }
+  .topLeftcontainer {
+    flex: 1;
+    margin-left: 1rem;
+    width: 50%;
+  }
+  .topRightContainer{
+    flex: 1;
+    width: 50%;
+  }
+  .textTop{
+    
+    font-family: 'jost';
+    font-size: 12px;
+    font-weight: lighter;
+    padding-bottom: 1rem;
+  
+  }
+  .textTopHeading{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    
+  }
+  .topLeftImage {
+    margin-left: 0;
+    width: 12rem;
+    height: 12rem;
+  }
+  
+  .climateImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    width: 100vw;
+    height: 20vh;
+  }
+  .image_climate{
+    width: 100vw;
+    height: 25vh;
+  }
+  .ImgContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+  }
+  .topContainerbtn {
+    color: white;
+    background: black;
+    padding-left: 13px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 4rem;
+    cursor: pointer;
+    margin-top: 2rem;
+  }
+  
+  
+  .img1_img {
+   
+    width: 50vw;
+    height: 32vh;
+     text-shadow: 2px 4px 4px rgba(137, 143, 156, 0.6);
+  }
+  .env_img{
+    width: 100vw;
+    height: 20vh;
+  }
+  
+  
+  .envimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vw;
+    margin-left: 35px;
+    margin-top: 5rem;
+  }
+  .middleContainer{
+    margin-top: 6rem;
+    padding-top: 0rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .middleLeftcontainer{
+    flex: 1;
+    width: 50vw;
+    padding-left: 1rem;
+    margin-top: 10px;
+  }
+  .bottomContainer {
+    width: 100vw;
+    margin-top: 2rem;
+  }
+  
+  .middleRightContainer{
+    flex: 1;
+  }
+  .bottomContainerImg{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .bottomContainerHeading{
+    text-align: center;
+  }
+  
+  .middle_text_top{
+    font-size: 1.5rem;
+  }
+  .middle_text_middle{
+    font-size: 12px;
+  }
+  .MiddleRightImage{
+    width:15rem;
+    height: 20rem;
+  }
+  
+  .image_bottom{
+    display: flex;
+    justify-content: end;
+  }
+  
+  .bottomContainer_Img{
+    width: 80vw;
+    height: 30vh;
+  }
+ 
+  
+  
 }

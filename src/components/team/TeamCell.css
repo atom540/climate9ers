@@ -36,3 +36,48 @@
     width: 13rem;
   
 }
+@media only screen and (min-device-width: 360px) and (max-device-width: 740px) and (orientation: portrait) {
+    .team-cell{
+        width: 20vw;
+        height: fit-content;
+        font-family: "jost";
+        flex: 1;
+    }
+    .team_img{
+        width: 7rem;
+        height: 8rem;
+     }
+    
+    
+    .teamName{
+        text-align: center;
+        font-size:1rem;
+        font-weight:bold;
+        padding-bottom: 1rem;
+        padding-top:1rem ;
+    }
+    .teamPos{
+        text-align: center;
+        font-size:1rem;
+        font-weight:bold;
+        padding-bottom: 1rem;
+    }
+    .teamClg{
+        text-align: center;
+        font-size:1rem;
+        font-weight:bold;
+        padding-bottom: 1rem;
+    }
+    .image{
+        display: flex;
+      justify-content: center;
+    
+    }
+    .teamDesc{
+        line-height: 1.2rem;
+        font-size: 11px;
+        padding-left: 1rem;
+        width: 6rem;
+      
+    }
+}

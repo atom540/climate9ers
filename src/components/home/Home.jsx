@@ -30,33 +30,31 @@ const Home = () => {
                 className="topLeftImage"
                 src={img6}
                 alt="Example Image"
-                width={550}
               />
             </div>
           </div>
         </div>
         <div className="climateImg">
-          <Image src={features} alt="img1" />
+          <Image className="image_climate" src={features} alt="img1" />
         </div>
         <div className="ImgContainer">
-          <div className="img1">
-            <Image src={img1} alt="img1" />
-          </div>
-          <div className="img2">
-            <Image src={img2} alt="img1" />
-          </div>
+          
+            <Image className="img1_img" src={img1} alt="img1" />
+         
+            <Image  className="img1_img"  src={img2} alt="img1" />
+          
         </div>
         <div className="envimg">
-          <Image src={envImg} alt="envImg" width={800} height={450}/>
+          <Image src={envImg} alt="envImg" className="env_img"/>
         </div>
         {/* top ended */}
 
         <div className="middleContainer">
           <div className="middleLeftcontainer">
-            <h2 className="textTop">
+            <h2 className="middle_text_top">
               Tech Entrepreneurs holds the key to net zero{" "}
             </h2>
-            <p>
+            <p className="middle_text_middle">
               The scale of problem is huge, we emit 51bn tons of CO2 annually.
               50% of coral reef is lost and the planet’s average temperature has
               increased by 1.1 °C. We need technological solution that can scale
@@ -68,13 +66,12 @@ const Home = () => {
             </p>
           </div>
           <div className="middleRightContainer">
-            <div className="image">
+            <div className="image_bottom">
               <Image
-                className="topLeftImage"
+                className="MiddleRightImage"
                 src={img7}
                 alt="Example Image"
-                width={370}
-                height={550}
+               
               />
             </div>
           </div>
@@ -83,10 +80,9 @@ const Home = () => {
           <h1 className="bottomContainerHeading">Focus area</h1>
           <div className="bottomContainerImg">
             <Image
-              className="bottomContainerImg"
+              className="bottomContainer_Img"
               src={img8}
               alt="Example Image"
-              width={900}
             />
           </div>
         </div>
