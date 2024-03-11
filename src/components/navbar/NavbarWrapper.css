@@ -1,0 +1,16 @@
+.navbar-wrapper {
+    .navbar-desk{
+        display: block;
+    }
+    .navbar-mobile{
+        display: none;
+    }
+    @media only screen and (max-width: 850px){
+        .navbar-mobile{
+            display: block;
+        }
+        .navbar-desk{
+            display: none;
+        }
+    }
+}
